@@ -1,0 +1,13 @@
+{application, calc, [
+	{description, "Calculator application."},
+	{vsn, "1"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+		ranch
+	]},
+	{mod, {calc_app, []}},
+	{env, []}
+]}.
